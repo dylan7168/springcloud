@@ -10,7 +10,7 @@ public class ClientController {
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
-    @GetMapping("/client")
+    @GetMapping("/server")
     public String getString() {
         logger.info("接收服务端server的调用");
         return "I am server1.";

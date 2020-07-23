@@ -49,12 +49,12 @@
             <charset>UTF-8</charset>
         </encoder>
         <!--kafka topic 需要与配置文件里面的topic一致 否则kafka会沉默并鄙视你 -->
-        <topic>applog</topic>
+        <topic>test</topic>
         <keyingStrategy
                 class="com.github.danielwegener.logback.kafka.keying.HostNameKeyingStrategy"/>
         <deliveryStrategy
                 class="com.github.danielwegener.logback.kafka.delivery.AsynchronousDeliveryStrategy"/>
-        <producerConfig>bootstrap.servers=192.168.68.110:9092,192.168.68.111:9092,192.168.68.112:9092</producerConfig>
+        <producerConfig>bootstrap.servers=127.0.0.1:9092</producerConfig>
     </appender>
 
     <!-- <logger name="Application_ERROR">
