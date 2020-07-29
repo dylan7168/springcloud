@@ -7,8 +7,8 @@ server:
 spring:
   application:
     name: zuul-gateway
-zuul:
+zuul: # 构建路由地址
   routes:
     zuulclientapi:
-      path: /zuulclientapi/**
-      serviceId: zuul-client
+      path: /api/v2/**  # 匹配的路由规则
+      serviceId: service-provider # 路由的目标服务名
