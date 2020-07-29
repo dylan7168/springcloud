@@ -5,7 +5,7 @@ import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-@FeignClient("service-provider")
+@FeignClient(value = "service-provider", fallback = ConsumerFeignApiImpl.class)
 public interface ConsumerFeignApi {
 
     @RequestMapping(value = "/service", method = RequestMethod.GET, consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
