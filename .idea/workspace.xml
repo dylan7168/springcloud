@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f05ec0fe-efc7-4344-b9fb-4eaa51df03b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/document/SpringCloud融会贯通/01-Eureka原理解析.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/SpringCloud融会贯通/01-Eureka源码解析.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/SpringCloud融会贯通/01-Eureka源码解析.pptx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -316,7 +317,7 @@
       <workItem from="1596148141712" duration="7000" />
       <workItem from="1596202300181" duration="11748000" />
       <workItem from="1596268073327" duration="370000" />
-      <workItem from="1596268475407" duration="1158000" />
+      <workItem from="1596268475407" duration="4689000" />
     </task>
     <servers />
   </component>
@@ -391,10 +392,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596267907933" />
-    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1596269030999">
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1596273635098">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1596269030999" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1596273635098" />
     <state x="468" y="144" width="600" height="536" key="find.popup" timestamp="1596207947226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -403,9 +404,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="164" y="82" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1595889968955" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596207880703">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596273473866">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596207880703" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1596273473866" />
   </component>
 </project>
