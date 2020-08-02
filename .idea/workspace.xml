@@ -20,10 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f05ec0fe-efc7-4344-b9fb-4eaa51df03b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/example/serviceprovider/redis/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/example/serviceprovider/redis/RedisController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-provider/src/main/java/com/example/serviceprovider/redis/RedisUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/src/main/java/com/example/springbootredis/SpringBootRedisApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-redis/src/test/java/com/example/springbootredis/SpringBootRedisApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/SpringCloud融会贯通/04-Hystrix源码解析.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/SpringCloud融会贯通/04-Hystrix源码解析.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/SpringCloud融会贯通/05-Zuul源码解析.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/SpringCloud融会贯通/05-Zuul源码解析.pptx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/document/SpringCloud融会贯通/06-Sleuth源码解析.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/SpringCloud融会贯通/06-Sleuth源码解析.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/document/SpringCloud融会贯通/07-Redis源码解析.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/document/SpringCloud融会贯通/07-Redis源码解析.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +103,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -102,7 +115,7 @@
       <recent name="D:\IdeaProjects\springcloud\elk-kafka-server\src\main\java\com\example\elkkafkaserver" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigSingleClientApplication">
+  <component name="RunManager" selected="Spring Boot.ServiceProviderApplication">
     <configuration name="ElkKafkaClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.elkkafkaclient.ElkKafkaClientApplication" />
       <module name="elk-kafka-client" />
@@ -225,6 +238,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringBootRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-redis" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springbootredis.SpringBootRedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="zuul_gateway" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.zuul_gateway.ZuulGatewayApplication" />
@@ -304,9 +324,10 @@
       <item itemvalue="Spring Boot.ServiceProvider2Application" />
       <item itemvalue="Spring Boot.ConfigSingleServerApplication" />
       <item itemvalue="Spring Boot.ConfigSingleClientApplication" />
-      <item itemvalue="Spring Boot.ServiceProvider3Application" />
       <item itemvalue="Spring Boot.ZuulGatewayApplication" />
       <item itemvalue="Spring Boot.ElkKafkaServiceAApplication" />
+      <item itemvalue="Spring Boot.SpringBootRedisApplication" />
+      <item itemvalue="Spring Boot.ServiceProvider3Application" />
     </list>
     <recent_temporary>
       <list>
@@ -338,7 +359,8 @@
       <workItem from="1596202300181" duration="11748000" />
       <workItem from="1596268073327" duration="370000" />
       <workItem from="1596268475407" duration="10866000" />
-      <workItem from="1596324326008" duration="8811000" />
+      <workItem from="1596324326008" duration="13442000" />
+      <workItem from="1596376521283" duration="164000" />
     </task>
     <servers />
   </component>
@@ -373,58 +395,58 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" width="716" height="517" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1596358872235" />
-    <state width="1493" height="314" key="GridCell.Tab.0.bottom" timestamp="1596358618506">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom" timestamp="1596376456142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="314" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596358618506" />
-    <state width="1493" height="314" key="GridCell.Tab.0.center" timestamp="1596358618505">
+    <state width="1493" height="199" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596376456142" />
+    <state width="1493" height="199" key="GridCell.Tab.0.center" timestamp="1596376456142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="314" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596358618505" />
-    <state width="1493" height="314" key="GridCell.Tab.0.left" timestamp="1596358618505">
+    <state width="1493" height="199" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596376456142" />
+    <state width="1493" height="199" key="GridCell.Tab.0.left" timestamp="1596376456142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="314" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596358618505" />
-    <state width="1493" height="314" key="GridCell.Tab.0.right" timestamp="1596358618506">
+    <state width="1493" height="199" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596376456142" />
+    <state width="1493" height="199" key="GridCell.Tab.0.right" timestamp="1596376456142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="314" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596358618506" />
-    <state width="1493" height="314" key="GridCell.Tab.1.bottom" timestamp="1595890730870">
+    <state width="1493" height="199" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596376456142" />
+    <state width="1493" height="199" key="GridCell.Tab.1.bottom" timestamp="1596376456142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="314" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595890730870" />
-    <state width="1493" height="314" key="GridCell.Tab.1.center" timestamp="1595890730870">
+    <state width="1493" height="199" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596376456142" />
+    <state width="1493" height="199" key="GridCell.Tab.1.center" timestamp="1596376456142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="314" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1595890730870" />
-    <state width="1493" height="314" key="GridCell.Tab.1.left" timestamp="1595890730870">
+    <state width="1493" height="199" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596376456142" />
+    <state width="1493" height="199" key="GridCell.Tab.1.left" timestamp="1596376456142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="314" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1595890730870" />
-    <state width="1493" height="314" key="GridCell.Tab.1.right" timestamp="1595890730870">
+    <state width="1493" height="199" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596376456142" />
+    <state width="1493" height="199" key="GridCell.Tab.1.right" timestamp="1596376456142">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="314" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1595890730870" />
+    <state width="1493" height="199" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596376456142" />
     <state x="349" y="155" key="IDE.errors.dialog" timestamp="1595591046524">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="349" y="155" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1595591046524" />
-    <state x="270" y="0" key="SettingsEditor" timestamp="1596324471338">
+    <state x="270" y="0" key="SettingsEditor" timestamp="1596376414724">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596324471338" />
-    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1596358727809">
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596376414724" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup" timestamp="1596376561703">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1596358727809" />
+    <state x="490" y="154" width="543" height="524" key="StructurePopup/0.0.1536.824@0.0.1536.824" timestamp="1596376561703" />
     <state x="468" y="144" width="600" height="536" key="find.popup" timestamp="1596207947226">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="468" y="144" width="600" height="536" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596207947226" />
-    <state x="164" y="82" key="new project wizard" timestamp="1595889968955">
+    <state x="164" y="82" key="new project wizard" timestamp="1596375996556">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="164" y="82" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1595889968955" />
+    <state x="164" y="82" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1596375996556" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1596358572306">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
