@@ -19,31 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f05ec0fe-efc7-4344-b9fb-4eaa51df03b1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_3_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_51_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_51_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_51_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_handler_4_1_51_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_51_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_51_Final.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_test_3_3_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_reactive_2_3_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_3_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_3_2_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_8_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider-2/target/service-provider-2-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider-2/target/service-provider-2-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider-2/target/service-provider-2-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider-2/target/service-provider-2-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/example/serviceprovider/redis/RedisConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/example/serviceprovider/redis/RedisController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/src/main/java/com/example/serviceprovider/redis/RedisUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-provider/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="f05ec0fe-efc7-4344-b9fb-4eaa51df03b1" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -360,7 +336,7 @@
       <workItem from="1596454391626" duration="582000" />
       <workItem from="1596455008721" duration="2892000" />
       <workItem from="1596459715088" duration="1634000" />
-      <workItem from="1596543510635" duration="1361000" />
+      <workItem from="1596543510635" duration="1497000" />
     </task>
     <servers />
   </component>
